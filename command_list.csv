@@ -1,0 +1,31 @@
+    1  git clone https://github.com/marves-pl/HW_10.git
+    2  history 
+    3  cd HW_10/
+    4  touch  text_ignore.txt
+    5  vim .gitignore 
+    6  git status
+    7  git add .
+    8  git commit -m "create text_ignore"
+    9  git status
+   10  touch main_test.txt
+   11  git add .
+   12  git commit -m "create main_test.txt"
+   13  git status
+   14  git log
+   15  git pull
+   16  git checkout develop
+   17  touch develop_test.txt
+   18  git add .
+   19  git commit 0m "Create develop_test.txt"
+   20  git commit -m "Create develop_test.txt"
+   21  vim develop_test.txt 
+   22  git add .
+   23  git commit -m "Update develop_test"
+   24  git lo
+   25  git log
+   26  git status
+   27  git checkout main
+   28  git merge develop
+   29  git lo
+   30  git log
+   31  history > command_list.csv
